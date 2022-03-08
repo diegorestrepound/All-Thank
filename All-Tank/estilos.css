@@ -168,11 +168,11 @@ header .titulo {
   
   width: 200%;
   max-width: 1000px;
-  height: 430px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
+  margin: 20px;
 }
 
 .container1 .card{
@@ -449,10 +449,14 @@ span{
   overflow: visible;
   
 }
-
-#cont2{
-  margin: 30px;
+.main1{ 
+  height: 130%;
 }
+
+#trabajo{
+  box-sizing: border-box;
+}
+
 .prueba{
   margin: 80px 0 0 0;
   display: inline-block;
@@ -635,8 +639,10 @@ footer {
   margin: 30px;
 }
 
-.footer{
+#contacto{
   margin-top: 10px;
+  display: block;
+  
 }
 
 .subtitulo-footer {
@@ -687,7 +693,7 @@ textarea {
   border-top: 5px solid rgba(37, 37, 33, .7);
 }
 
-input[type="submit"] {
+button {
   display: inline-block;
   padding: 13px;
   border: none;
@@ -734,6 +740,9 @@ input[type="submit"] {
     width: 183px;
   }
 
+  .main1{
+    height: 180%;
+  }
 
 
 }
@@ -764,7 +773,9 @@ input[type="submit"] {
   }
 
   
-
+  .main1{
+    height: 140%;
+  }
   
 
 }
@@ -778,7 +789,7 @@ input[type="submit"] {
 
   .prueba h2, .prueba p{
     font-size: 35px;
-    position: relative;
+    position: revert;
     bottom: -35px;
   }
   .slick1{
@@ -871,7 +882,7 @@ input[type="submit"] {
   }
 
   .main1{
-    height: 1800px;
+    height: 180%;
   }
 
   .enlaces{
@@ -956,10 +967,19 @@ input[type="submit"] {
   }
 
   .main1{
-    height: 2250px;
+    height: 1800px;
   }
 
 }
+
+@media screen and (max-width: 635px){
+  .main1{
+    height: 2300px;
+  }
+
+}
+ 
+
 
 @media screen and (max-width: 550px){
   
@@ -1085,22 +1105,308 @@ input[type="submit"] {
     font-size: 32px;
   }
 
-  .nosotros{
-    font-size: 10px;
+  
+
+  .main1{
+    height: 2350px;
+    
+  }
+
+  .contenedor .nosotros{
+    text-align: justify;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contenedor .titulo-prueba{
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .slick1{
+    margin-top: 60px;
+    position: revert;
   }
 
   
   
-  main{
-    margin-bottom: -30px;
-    padding-bottom: 30px;
+  
+}
+
+@media screen and (max-width: 400px){
+
+  .slick1{
+    padding: 0;
+    margin-left: 0;
+
+
+  }
+
+  #cont{
+    margin: 75px;
+    
+  }
+
+ .prueba p{
+    font-size: 8px;
   }
 
 }
 
 
-main{
-  margin: auto;
-  padding: auto;
-  height: auto;
+
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+@media screen and (min-height: 950px){
+
+
+  body{
+    height: 950px;
+  
+  }
+  
+  header{
+    height: 950px;
+  }
+
+  #tanques_ini{
+    height: 850px;
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  .main1{
+    height: 180%;
+  }
+
+
+}
+
+
+@media screen and (max-height: 950px){
+
+
+  body{
+    height: 950px;
+  
+  }
+  
+  header{
+    height: 950px;
+  }
+
+  #tanques_ini{
+    height: 850px;
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  .main1{
+    height: 170%;
+  }
+
+}
+
+
+@media screen and (max-height: 850px){
+
+
+  body{
+    height: 850px;
+  
+  }
+  
+  header{
+    height: 850px;
+  }
+
+  #tanques_ini{
+    height: 750px;
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+  
+  .main1{
+    height: 180%;
+  }
+
+}
+
+@media screen and (max-height: 750px){
+
+
+  body{
+    height: 750px;
+  
+  }
+  
+  header{
+    height: 750px;
+  }
+
+  #tanques_ini{
+    height: 650px;
+    
+   
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  .main1{
+    height: 180%;
+  }
+
+}
+
+@media screen and (max-height: 650px){
+
+
+  body{
+    height: 650px;
+  
+  }
+  
+  header{
+    height: 650px;
+  }
+
+  #tanques_ini{
+    height: 550px;
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  .main1{
+    height: 200%;
+  }
+
+}
+
+@media screen and (max-height: 550px){
+
+
+  body{
+    height: 550px;
+  
+  }
+  
+  header{
+    height: 550px;
+  }
+
+  #tanques_ini{
+    height: 450px;
+  }
+
+    #ini1{
+      padding: 5% 0%; 
+    }
+
+}
+
+@media screen and (max-height: 450px){
+
+
+  body{
+    height: 450px;
+  
+  }
+  
+  header{
+    height: 450px;
+  }
+
+  
+  #tanques_ini{
+    height: 350px;
+
+    
+  }
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  
+  
+
+}
+
+@media screen and (max-height: 650px) and (max-width: 701px){
+
+
+  body{
+    height: 650px;
+  
+  }
+  
+  header{
+    height: 650px;
+  }
+
+  #tanques_ini{
+    height: 550px;
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  .main1{
+    height: 270%;
+  }
+
+}
+
+
+@media screen and (max-height: 650px) and (max-width: 638px){
+
+
+  body{
+    height: 650px;
+  
+  }
+  
+  header{
+    height: 650px;
+  }
+
+  #tanques_ini{
+    height: 550px;
+  }
+
+  #ini1{
+    padding: 5% 0%; 
+  }
+
+  .main1{
+    height: 345%;
+  }
+
+}
+
+
+*{
+  box-sizing: border-box;
+  
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+  
 }
