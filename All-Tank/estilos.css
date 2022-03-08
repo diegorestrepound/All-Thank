@@ -1219,6 +1219,15 @@ html{
 }
 
 
+@media screen and (min-height: 950px) and (max-width: 610px){
+
+  .main1{
+    height: 245%;
+  }
+
+}
+
+
 @media screen and (max-height: 850px){
 
 
@@ -1244,6 +1253,8 @@ html{
   }
 
 }
+
+
 
 @media screen and (max-height: 750px){
 
@@ -1412,12 +1423,5 @@ html{
 }
 
 
-@media screen and (min-height: 950px) and (max-width: 610px){
-
-  .main1{
-    height: 245%;
-  }
-
-}
 
 
